@@ -1,0 +1,192 @@
+body {
+	background-color: #e7e7e7;
+}
+.bgWhite{
+	background-color: white;
+}
+.navBar{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	height: 15vh;
+}
+.Logo{
+	width: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Logo img{
+	width: 100%;
+}
+.Logo a{
+	width: 70%;
+}
+.links{
+	width: 79%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.links a{
+	font-weight: 900;
+	color: black;
+	text-decoration: none;
+	font-size: 15px;
+	padding: 1.5% 1.5%;
+}
+.links a:hover{
+	background-color: rgb(237, 237, 237);
+	color: orange;
+}
+.searchAndShop{
+	width: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.searchAndShop li a:hover i {
+	color: orange;
+}
+.searchAndShop a i{
+	color: black;
+	font-size: 25px;
+}
+.searchAndShop li {
+	margin-right: 5px;
+}
+.borderGrey{
+	color: grey;
+}
+.bor1{
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+.header{
+	margin: 0;
+	font-size: 4em;
+}
+.sidebar h2{
+	margin-bottom: 15%;
+}
+.sidebar h3{
+	margin-bottom: 10%;
+}
+.navLink{
+	color: grey;
+	font-size: 20px;
+}
+.sidebar a:hover{
+	text-decoration: none;
+	color: orange;
+}
+.sidebar a:hover .badge{
+	background-color: orange;
+}
+.sidebar a:focus{
+	text-decoration: none;
+	color: orange;
+}
+.clickedBadge{
+	background-color: orange;
+}
+.bold{
+	font-weight: bold;
+}
+.cardBorderGrey{
+	border: 2px solid grey;
+}
+.card{
+	margin-bottom: 5%;
+}
+.card:hover img{
+	width: 70%;
+}
+.card:hover{
+	border: 2px solid orange;
+}
+.imgDiv{
+	width: 100%;
+	padding: 15px;
+	padding-top: 20px;
+	height: 23vh;
+	margin-right: 0;
+}
+.imgDiv img{
+	width: 65%;
+	display: block;
+	margin: 0 auto;
+	transition: all .2s ease-out;
+}
+.bottom{
+	background-color: orange;
+	color: black;
+	padding: 10px;
+	width: 100%;
+}
+.bike:hover{
+	text-decoration: none;
+}
+.grey{
+	color: grey;
+}
+.greyRow{
+	background-color: rgb(237, 237, 237);
+	margin-top: 3%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.socialLinks{
+	padding-top: 7%;
+}
+.socialLinks li a i {
+	color: white;
+}
+.socialLinks li a{
+	padding: 10px;
+	padding-right: 12px;
+	padding-left: 12px;
+	font-size: 15px;
+	background-color: orange;
+}
+.badge{
+	background-color: #d3d3d3;
+	color: #5c5c5c;
+}
+.orangeB{
+	background-color: orange;
+}
+.socialLinks li a:hover{
+	background-color: grey;
+}
+.bolder{
+	font-weight: 900;
+}
+.borderLeft{
+	border-left: 1px solid grey;
+}
+.borderLeft ul li{
+	margin-top: 5px;
+}
+.eventLink{
+	color: black;
+}
+.eventLink:hover{
+	text-decoration: none;
+	color: orange;
+}
+.clicked{
+	font-weight: 900;
+	color: orange;
+}
+
+
+
+
+
+
+
+
+/*use color:orange for the orange color*/
+/*use background-color: #d3d3d3; color: #5c5c5c; for the badges*/
+/*use color:grey for the social-share icons on hover*/
