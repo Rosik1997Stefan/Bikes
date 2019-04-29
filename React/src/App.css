@@ -1,0 +1,199 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #e7e7e7;
+}
+.App{
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+}
+.nav{
+  width: 97%;
+  margin: 0 auto;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+.logo{
+  width: 15%;
+  text-align: center;
+}
+.logo img{
+  width: 50%;
+}
+.links{
+  width: 69%;
+}
+.links ul li{
+  list-style: none;
+}
+.links ul{
+margin: 0 auto;
+display: flex;
+justify-content: center;
+justify-content: space-around;
+}
+.links ul li a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.links ul li a:hover{
+  color: orange;
+}
+.search{
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search a{
+  font-size: 25px;
+  margin: 10px;
+  color: black;
+}
+.search a:hover{
+  color: orange;
+}
+.head h1{
+  font-size: 60px;
+  font-weight: 500;
+  padding-bottom: 5px;
+  width: 97%;
+  margin: 20px auto;
+  border-bottom: 1px solid lightgray;
+  padding: 0 10px;
+}
+.Card{
+  border:  2px solid black;
+  flex: 0 1 30%;
+  margin-right: 25px;
+  margin-bottom: 25px;
+
+}
+.Card:hover{
+  border: 2px solid orange;
+  cursor: pointer;
+}
+.Card:hover img{
+    transform: scale(1.1);
+}
+.top{
+  padding: 15px;
+  padding-top: 15px;
+  text-align: center;
+}
+.top img{
+  width: 65%;
+  height: 15vh;
+  transition: .2s ease-out ;
+}
+.bot{
+  background-color: orange;
+  color: black;
+  font-weight: 700;
+  padding: 20px;
+  padding-top: 5px;
+}
+
+.wrapper{
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0 20px;
+}
+.con {
+   width: 100%;
+  display: flex;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.right{
+   width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-left: 25px;
+}
+.Filters{
+  width: 29%;
+  border-right: 1px solid lightgray;
+  padding-right: 15px;
+}
+.Filters a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  font-size: 19px;
+  color: grey;
+  font-weight: 500;
+  display: block;
+}
+.Filters a:hover{
+  color: orange;
+  cursor: pointer;
+}
+.Filters a:hover > span{
+    background-color: orange;
+}
+.Footer {
+  width: 100%;
+  display: flex;
+  margin-top: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgb(237, 237, 237);
+}
+.Social {
+  width: 24.5%;
+  padding-left: 25px;
+}
+.Social ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+}
+.Social ul li {
+  display: inline-block;
+  margin: 0 7px;
+}
+.Social ul li a{
+  background-color: orange;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+}
+.Social ul li a:hover{
+  background-color: lightgray;
+}
+.col{
+  width: 24%;
+  border-left: 1px solid lightgray;
+  padding-left: 20px;
+}
+.col ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+.col ul li {
+    margin-top: 5px;
+    list-style: none;
+}
+.col ul li a {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+.col ul li a:hover{
+     color: orange;
+}
+a.orange{
+  color: orange;
+}
+.badge.orangeBg{
+  background-color: orange;
+}
+
